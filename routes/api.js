@@ -1,4 +1,8 @@
+// Dependencies
+// =============================================================
+//Require express app
 const router = require("express").Router();
+//require models
 const Transaction = require("../models/transaction.js");
 
 router.post("/api/transaction", ({body}, res) => {
@@ -30,5 +34,5 @@ router.get("/api/transaction", (req, res) => {
       res.status(404).json(err);
     });
 });
-
+//module exports router
 module.exports = router;
