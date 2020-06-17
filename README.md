@@ -27,12 +27,14 @@ SO THAT my account balance is accurate when I am traveling
 
 ```
 ## Acceptance Criteria
-
+```
 GIVEN a user is on Budget App without an internet connection
 
 WHEN the user inputs a withdrawal or deposit
 
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+
+```
 
 ## Description
 A Full Stack web application built with express, node and indexDB. With this application you can keep track of your finances by adding expenses and income.
@@ -57,9 +59,9 @@ When brought back online:
 
 ## Visuals
 
-![](Demo/fitnessTracker.gif)
-![](Demo/Screenshot1.png)
-![](Demo/Screenshot2.png)
+![](Demo/budgetTrackerGif.gif)
+![](Demo/1.image.png)
+![](Demo/2.image.png)
 
 ## Built with
 * JavaScript
